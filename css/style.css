@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.body-home, .body-login {
+	background: url(../img/ifm_png.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.black-fill {
+	background: rgba(0,0,0, 0.5);
+	min-height: 100vh;
+}
+#homeNav {
+	background: rgba(255,255,255, 0.749) !important;
+	font-weight: 550;
+	border-radius: 5px;
+}
+.container-fluid{
+	
+}
+.navbar-brand{
+	color:#0a319b;
+	font-weight: 600;
+	font-size: 25px;
+}
+.welcome-text {
+	min-height: 80vh;
+}
+.welcome-text img {
+	width: 100px;
+}
+.welcome-text h4 {
+	color: #eee;
+	font-size: 58px;
+	font-weight: 650;
+
+}
+.welcome-text p {
+	color: #222;
+	background: rgba(255,255,255, 0.749);
+	padding: 5px;
+	border-radius: 4px;
+}
+#about {
+	min-height: 100vh;
+}
+#about .card-1{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255, 255, 255, 0.749);
+	padding: 20px;
+	border-radius: 5px;
+}
+#about .card-1 h5{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#contact {
+	min-height: 100vh;
+}
+#contact form{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.749);
+	padding: 20px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+#contact form h3 {
+	text-align: center;
+	font-weight: bold;
+}
+textarea {
+	resize: none;
+}
+
+.login {
+	max-width: 500px;
+	width: 90%;
+	background: rgba(255, 255, 255, 0.749);
+	padding: 10px;
+	border-radius: 10px;
+}
+.login h3{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+.w-450 {
+	width: 450px;
+}
+.n-table {
+	max-width: 800px;
+}
+.form-w {
+	max-width: 600px;
+	width: 100%;
+}
