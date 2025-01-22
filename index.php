@@ -14,7 +14,7 @@ if ($setting != 0) {
 	<title><?=$setting['school_name']?></title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" href="ifm_4.png">
+	<link rel="icon" href="ifm-logo.jpg">
 </head>
 <body class="body-home">
     <div class="black-fill"><br /> <br />
@@ -49,7 +49,7 @@ if ($setting != 0) {
 		</div>
 		</nav>
         <section class="welcome-text d-flex justify-content-center align-items-center flex-column">
-        	<h4><?=$setting['school_name']?></h4>
+        	<marquee behavior="" direction=""><h4><?=$setting['school_name']?></h4></marquee>
         	<p><?=$setting['slogan']?></p>
         </section>
         <section id="about"
@@ -63,6 +63,7 @@ if ($setting != 0) {
 			      <div class="card-body">
 			        <h5 class="card-title">About Us</h5>
 			        <p class="card-text"><?=$setting['about']?></p>
+					<marquee behavior="" direction="">Hello welcome</marquee>
 			        <p class="card-text"><small class="text-muted">INSTITUTE OF FINANCE MANAGEMENT</small></p>
 			      </div>
 			    </div>
